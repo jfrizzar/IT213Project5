@@ -4,4 +4,26 @@ body{
 
 .myNavbar {
     background-color: #2D0B3C; 
+    width: 100%;
+}
+
+.nav-link{
+    color: white;
+    transition: color 0.3 ease;
+}
+
+.nav-link:hover{
+    color: rgb(171, 169, 169);
+}
+
+/* The normal state */
+.navbar-nav .donate-link {
+    color: #ff0000;
+    transition: color 0.3s ease;
+}
+
+/* The hover state */
+.navbar-nav .donate-link:hover {
+    color: #b30000;
+    text-decoration: none;
 }
