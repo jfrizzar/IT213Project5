@@ -1,15 +1,28 @@
+/*Primary elements CSS*/
 body{
-    background-color: #9C28D1;
+    background-color: #1A1A1D;
+    color: #E0E0E0;
 }
 
+a{
+    text-decoration: none;
+    color: #E0E0E0;
+    transition: color 0.2s ease;
+}
+
+a:hover{
+    color: grey;
+}
+
+/*Navbar CSS*/
 .myNavbar {
     background-color: #2D0B3C; 
     width: 100%;
 }
 
 .nav-link{
-    color: white;
-    transition: color 0.3 ease;
+    color: #E0E0E0;
+    transition: color 0.3s ease;
 }
 
 .nav-link:hover{
@@ -26,8 +39,47 @@ body{
     text-decoration: none;
 }
 
+/*Card CSS*/
+.card{
+    border: 0;
+    color: #E0E0E0;
+}
+
 .card-img-top {
     width: 100%;
     height: 200px;
     object-fit: cover; 
+}
+
+.card.w-100{
+    background-color: #2D0B3C;
+}
+.card-body{
+    background-color: #2D0B3C;
+    border-width: 0;
+}
+
+/*Button CSS*/
+.btn{
+    color: #E0E0E0;
+}
+
+.btn.btn-primary{
+    transition:background-color 0.2 ease;
+    background-color:#9C28D1;
+    border-width: 0;
+}
+
+.btn.btn:hover{
+    background-color:#6c1694;
+}
+
+button.btn-primary.btn-lg{
+    transition: background-color 0.2s ease;
+    background-color: #2D0B3C;
+    border-width: 0;
+}
+
+button.btn-primary.btn-lg:hover{
+    background-color:#0f0114
 }
