@@ -16,7 +16,8 @@ a:hover{
 
 /*Navbar CSS*/
 .myNavbar {
-    background-color: #2D0B3C; 
+    background-color: #2D0B3C;
+    color: #E0E0E0;
     width: 100%;
 }
 
@@ -37,6 +38,10 @@ a:hover{
 .navbar-nav .donate-link:hover {
     color: #b30000;
     text-decoration: none;
+}
+
+.navbar-toggler-icon{
+    filter: invert(1);
 }
 
 /*Card CSS*/
@@ -83,3 +88,5 @@ button.btn-primary.btn-lg{
 button.btn-primary.btn-lg:hover{
     background-color:#0f0114
 }
+
+/*Images*/
