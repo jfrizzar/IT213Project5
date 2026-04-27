@@ -73,7 +73,14 @@ a:hover{
 .card-title {
     color: #E0E0E0;
     font-weight: 700;
+    transition: color 0.2s ease;
 }
+
+.card-title:hover{
+    color: rgb(82, 80, 80);
+    font-weight: 700;
+}
+
 
 /*Button CSS*/
 .btn{
