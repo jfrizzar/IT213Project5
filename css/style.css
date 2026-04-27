@@ -1,38 +1,51 @@
 /*Primary elements CSS*/
 body{
-    background-color: #1A1A1D;
-    color: #E0E0E0;
+    background-color: #0F0C10;
+    color: #F5F5F7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    text-decoration: underline;
 }
 
 a{
+    color: #F5F5F7;
     text-decoration: none;
-    color: #E0E0E0;
     transition: color 0.2s ease;
 }
 
 a:hover{
-    color: grey;
+    color: rgb(82, 80, 80);
+}
+
+.websiteTitle {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 7px;
 }
 
 /*Navbar CSS*/
 .myNavbar {
-    background-color: #2D0B3C;
-    color: #E0E0E0;
+    background-color: #4A148C;
     width: 100%;
 }
 
 .nav-link{
-    color: #E0E0E0;
-    transition: color 0.3s ease;
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: color 0.2s ease;
 }
 
 .nav-link:hover{
-    color: rgb(171, 169, 169);
+    color: rgb(255, 255, 255, 1);
 }
 
 .navbar-nav .donate-link {
-    color: #ff0000;
-    transition: color 0.3s ease;
+    color: #D4AF37;
+    font-weight: bold;
+    transition: color 0.2s ease;
 }
 
 .navbar-nav .donate-link:hover {
@@ -46,8 +59,9 @@ a:hover{
 
 /*Card CSS*/
 .card{
-    border: 0;
+    background-color: #4A148C;
     color: #E0E0E0;
+    border: none;
 }
 
 .card-img-top {
@@ -56,12 +70,9 @@ a:hover{
     object-fit: cover; 
 }
 
-.card.w-100{
-    background-color: #2D0B3C;
-}
-.card-body{
-    background-color: #2D0B3C;
-    border-width: 0;
+.card-title {
+    color: #E0E0E0;
+    font-weight: 700;
 }
 
 /*Button CSS*/
@@ -70,23 +81,11 @@ a:hover{
 }
 
 .btn.btn-primary{
-    transition:background-color 0.2 ease;
-    background-color:#9C28D1;
-    border-width: 0;
+    background-color: #6a1bca;
+    transition:background-color 0.2s ease;
+    border: none;
 }
 
-.btn.btn:hover{
-    background-color:#6c1694;
+.btn.btn-primary:hover{
+    background-color: #994df7;
 }
-
-button.btn-primary.btn-lg{
-    transition: background-color 0.2s ease;
-    background-color: #2D0B3C;
-    border-width: 0;
-}
-
-button.btn-primary.btn-lg:hover{
-    background-color:#0f0114
-}
-
-/*Images*/

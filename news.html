@@ -9,114 +9,94 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg myNavbar">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse container-fluid px-0" id="navbarNav">
-                <ul class="navbar-nav w-100 nav-fill">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="news.html">News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="culture.html">Culture</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="sports.html">Sports</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="videos.html">Videos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Podcasts</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link donate-link" aria-current="page" href="donate.html">Donate</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="about-us.html">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="site-map.html">Site Map</a>
-                    </li>
-                </ul>  
-            </div>
-            <a class="navbar-brand ms-auto" href="index.html">
-                <img src="/assets/images/logo.png" alt="Equilibrium Logo" width="75" height="75">
-            </a>
+    <nav class="navbar navbar-expand-lg sticky-top myNavbar">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-0" id="navbarNav">
+            <ul class="navbar-nav w-100 nav-fill">
+                <li class="nav-item">
+                    <a class="nav-link" href="news.html">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="culture.html">Culture</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sports.html">Sports</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="videos.html">Videos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Podcasts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link donate-link" href="donate.html">Donate</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about-us.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="site-map.html">Site Map</a>
+                </li>
+            </ul>
         </div>
+        <a class="navbar-brand ms-auto" href="index.html" aria-current="page">
+            <img src="/assets/images/logo.png" alt="Equilibrium Logo" height="50">
+        </a>
     </nav>
     <h5 class="mt-3">
         <a href="#bottom">Jump to Bottom</a>
     </h5>
-    <h1 class="text-center mt-4">News</h1>
-    <div class="container mb-4">
-        <div class="row g-4">
-            <div class="col-4 d-flex justify-content-center">
-                <button type="button" class="btn btn-primary btn-lg">International</button>     
-            </div>
-            <div class="col-4 d-flex justify-content-center">
-                <button type="button" class="btn btn-primary btn-lg">State</button>    
-            </div>
-            <div class="col-4 d-flex justify-content-center">
-                <button type="button" class="btn btn-primary btn-lg">Local</button>
-            </div>
-        </div>
-        <div class="row g-4 mt-4">
-            <div class="col-4 mt-4 d-flex justify-content-center">
-                <a href="https://google.com/">
-                    <h3>Headline</h3>
-                </a>
-            </div>
-            <div class="col-4 d-flex justify-content-center">
-                <a href="https://google.com/">
-                    <h3>Headline</h3>
-                </a>   
-            </div>
-            <div class="col-4 d-flex justify-content-center">
-                <a href="https://google.com/">
-                    <h3>Video of the Day</h3>
-                </a>
-            </div>
+    <h1 class="text-center mt-3 websiteTitle">News</h1>
+
+    <div class="container mt-4">
+        <div class="row g-4 justify-content-center">
+                <div class="col-12 col-md-4 d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary btn-lg w-100 w-md-auto">International</button>     
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary btn-lg w-100 w-md-auto">State</button>    
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary btn-lg w-100 w-md-auto">Local</button>
+                </div>
         </div>
 
-        <div class="row g-4">
-            <div class="col-4 d-flex justify-content-center">
-                <div class="card">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                </div>
-                </div>   
+        <div class="row mt-4 d-flex align-items-stretch">
+            <div class="col-12 col-md-4 d-flex flex-column">
+                <a href="https://news.google.com/"><h3 class="text-center h5 mb-3">The Lithium Silent Spring</h3></a>
+                <div class="card h-100">
+                    <div class="card-body">
+                        <p class="card-text text-center">While the world races toward a green energy revolution, the high-altitude salt flats of the Andes are facing an unprecedented ecological shift. As global demand for battery-grade lithium triples, local communities are questioning the true cost of a "clean" future. This report investigates the delicate balance between saving the planet and preserving the ground beneath our feet.</p>
+                    </div>
+                </div>  
             </div>
-            <div class="col-4 d-flex justify-content-center">
-                <div class="card">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                </div>
-                </div>        
+
+            <div class="col-12 col-md-4 d-flex flex-column">
+                <a href="https://news.google.com/"><h3 class="text-center h5 mb-3">Neon Solitude</h3></a>
+                <div class="card h-100">
+                    <div class="card-body">
+                        <p class="card-text text-center">While the world races toward a green energy revolution, the high-altitude salt flats of the Andes are facing an unprecedented ecological shift. As global demand for battery-grade lithium triples, local communities are questioning the true cost of a "clean" future. This report investigates the delicate balance between saving the planet and preserving the ground beneath our feet.</p>
+                    </div>
+                </div>    
             </div>
-            <div class="col-4 d-flex justify-content-center">
+            <div class="col-12 col-md-4 d-flex flex-column">
+                <a href="https://www.youtube.com/embed/n9k5CD4W6yM?si=JIjw5Wj3KH4LISje"><h3 class="text-center h5 mb-3">Video of the Day</h3></a>
+                <div class="card">
                     <div class="ratio ratio-16x9">
-                        <iframe src="https://www.youtube.com/embed/XYP6ltJYfL0?si=fDH6OvVK0dDhsSxh" class="w-100 h-100" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/n9k5CD4W6yM?si=JIjw5Wj3KH4LISje" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
                     </div>
                 </div>
             </div>
         </div>
-        <a href="https://google.com/">
-            <h3 class="text-center mt-4">Headline</h3>
-        </a>
-        <div class="row g-4">
-            <div class="col-12 d-flex justify-content-center">
-                <div class="card w-75 mx-auto">
-                    <div class="card-body">
-                        <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card’s content.
-                            Some quick example text to build on the card title and make up the bulk of the card’s content.
-                            Some quick example text to build on the card title and make up the bulk of the card’s content.
-                            Some quick example text to build on the card title and make up the bulk of the card’s content.
-                            Some quick example text to build on the card title and make up the bulk of the card’s content.
-                            Some quick example text to build on the card title and make up the bulk of the card’s content.
-                            Some quick example text to build on the card title and make up the bulk of the card’s content.
+
+        <div class="row mt-5">
+            <div class="col-12">
+                <a href="https://news.google.com/"><h3 class="text-center h5 mb-3">Echoes from the Hesperian Era</h3></a>
+                <div class="card">
+                    <div class="card-body p-4">
+                        <p class="card-text text-center mx-auto">New data from the latest Martian rover suggests that the Red Planet’s ancient oceans didn't just vanish—they may have been trapped in the crust for billions of years. This discovery reopens the debate on Martian habitability and forces us to reconsider the timeline of our solar system. Equilibrium speaks with the lead researchers on why the "Dry Planet" might actually be a dormant reservoir.
                         </p>
                     </div>
                 </div>   
